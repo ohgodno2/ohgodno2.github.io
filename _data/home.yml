@@ -1,0 +1,95 @@
+# leave the value empty to diable it
+header:
+  announcement: "Due to the COVID-19 epidemic, this event will be rescheduled to September, 2020.&nbsp; More information coming soon."
+  logo: "/images/msu-helmet-green.png"
+  smalllogo: "/images/um.png"
+  title: "Women+</span><br>Data Science"
+
+# info
+section1:
+  date: "April 17, 2020"
+  time: "9:00 AM — 5:00 PM"
+  location: "Lake Huron Room, MSU Union"
+  description1: "Michigan State University &amp; University of Michigan invite you to their joint Women+ Data Science Symposium, 2020!"
+  description2: "Transportation provided from Ann Arbor to East Lansing"
+  event_title: "EVENT REGISTRATION"
+  event_url: "https://docs.google.com/forms/d/e/1FAIpQLSfwwdGOItncuSTJqOVBnnlvF6FgyR4Lhiyc4A6HTRorYMnPUg/viewform"
+
+# menu
+
+# Schedule
+section2:
+  title: "Tentative Schedule"
+  details:
+    - time: "9 — 9:15AM"
+      event: "Registration and Intro"
+    - time: "9:15 — 10 AM"
+      event: "Keynote:"
+      url: "https://www.cs.purdue.edu/people/faculty/bertino"
+      aname: "Elisa Bertino"
+      aposition: ", Samuel D. Conte Professor of Computer Science, Purdue University"
+    - time: "10 — 11:30 AM"
+      event: "Research Talks Session I"
+    - time: "11:30 AM — 2 PM"
+      event: "Poster Session<br>Lunch & Networking"
+    - time: "2 — 3 PM"
+      event: "Career Panel"
+    - time: "3 — 4 PM"
+      event: "Research Talks Session II"
+    - time: "4 — 4:45 PM"
+      event: "Technical Presentation:"
+      url: "https://www.si.umich.edu/people/ceren-budak"
+      aname: "Ceren Budak"
+      aposition: ", Assistant Professor, School of Information, University of Michigan"
+    - time: "4:45 — 5 PM"
+      event: "Wrap-up and Awards"
+
+section3:
+  title: "Call for Abstracts"
+  content: |
+    <p>The 2020 Women+ Data Science Symposium, jointly organized by the Michigan State University (MSU) and the University of Michigan (U-M) will take place on <b>April 17</b> at MSU. We invite abstract submissions for talks and poster presentations.</p>
+
+    <p>The symposium provides a platform for all practicing and aspiring data scientists, but especially women and gender minority participants, to discuss cutting-edge research, explore resources for research and career advancement, and network with other attendees. Everyone is welcome to contribute and attend.</p>
+
+    <p>We invite abstracts in the following areas:</p>
+
+    <ul>
+      <li>Theoretical foundations</li>
+      <li>Methodology and tools</li>
+      <li>Real-world applications in any research domain</li>
+      <li>Ethics, fairness, and societal impact</li>
+      <li>Emerging research areas</li>
+    </ul>
+
+point1_title: "Submission Guidelines"
+point1_url: "https://women-plus-datascience.github.io/poster-talk-guidelines"
+point1_url_text: "Click Here"
+point2_title: "Submission Deadline:"
+point3_title: ""
+point4_title: ""
+point1_title:
+
+section4:
+ organizer:
+  title: "Organizers"
+  item:
+    - name: "R-Ladies East Lansing ,"
+      url: "https://rladies-eastlansing.github.io/"
+    - name: "Michigan Institute for Data Science"
+      url: "https://midas.umich.edu"
+    - name: "Camille Archer (RLEL, MSU), Janani Ravi (RLEL, MSU); Jing Liu (MIDAS, UM)"
+      url: "#"
+  committee:
+    title: "Program Committee"
+    item1:
+      - name: "Liz Munch (MSU), Parisa Kordjamshidi (MSU), Dola Pathak (MSU)"
+      - name: "Marcy Harris (UM), Margaret Hedstrom (UM)."
+  partnerImage:
+    - name: "RLEL"
+      image: "/images/rlel-sq-bord.png"
+    - name: "MIDAS"
+      image: "/images/midas.png"
+    - name: "MSU"
+      image: "/images/msu-helmet-green.png"
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include header.html %}
+
+	<body>
+		{% assign index = site.data.home %}
+		{% assign header = site.data.home.header %}
+		{% assign section1 = site.data.home.section1 %}
+		{% assign section2 = site.data.home.section2 %}
+		{% assign section3 = site.data.home.section3 %}
+		{% assign section4 = site.data.home.section4 %}
+		{% assign section5 = site.data.home.section5 %}
+		<div id="root">
+			<div class="announcement"><span>{{ header.announcement }}</span></div>
+			<div class="section section-1">
+				<h1 class="title">
+					<div class="logos">
+						<img src="{{ header.logo }}" class="icon msu" alt="MSU"><img src="{{ header.smalllogo }}" class="icon" alt="UM"></div>
+					<span class="plus-sign">Women+</span><br>Data Science
+				</h1>
+				<div class="info"><span>{{ section1.date }}</span>
+					<div class="separator"></div><span>{{ section1.time }}</span>
+					<div class="separator"></div><span>{{ section1.location }}</span>
+				</div>
+				<span class="description">
+					<br>{{ section1.description1 }}<br>
+					<i style="color: rgb(102, 102, 102);">{{ section1.description2 }}</i><br>
+					<b><a href="{{ section1.event_url }}">{{ section1.event_title }}</a></b>
+				</span>
+				<nav>
+					<ul>
+						<li><a aria-current="page" class="is-active" href="/">Home</a></li>
+						<li><a href="/poster-talk-guidelines">Poster &amp; Talk Guidelines</a></li>
+						<li><a href="/sponsors">Sponsors</a></li>
+						<li><a href="/other-info">Other Information</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="section-parent">
+				<div class="section section-2"><span class="subtitle">{{ section2.title }}</span>
+					<div class="schedule">
+						{% for item in section2.details %}
+						<div class="row">
+							<span class="time">{{ item.time }}</span><span class="event">{{ item.event }} {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="registration">{% endif %} {% if item.aname %} {{ item.aname }} {% endif %}</a>{% if item.aposition %}{{ item.aposition }}{% endif %} </span>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+				<div class="section section-3"><span class="subtitle">{{ section3.title }}</span>
+					<div class="call">
+						{{ section3.content }}
+						<p>
+							<b>Submission Guidelines:<a target="_blank" rel="noopener noreferrer" href="https://women-plus-datascience.github.io/poster-talk-guidelines">Click Here</a>
+							</b><br><b>Submission Deadline:</b> Feb 29, 2020<br>
+							<b>Notification:</b> March 15, 2020<br><b><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfwwdGOItncuSTJqOVBnnlvF6FgyR4Lhiyc4A6HTRorYMnPUg/viewform">Register Here</a></b></p>
+						<p><b>Questions?</b> Email us: <a target="_blank" rel="noopener noreferrer" href="mailto:women.plus.datascience@gmail.com">women.plus.datascience@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="section section-3"><span class="subtitle">{{ page.title }}</span>
+				<div class="call">{{ content }}</div>
+			</div>
+			<span class="description" style="font-size: 1rem; margin-bottom: 2rem; color: rgb(136, 136, 136);"><b>{{ section4.organizer.title }}</b><br>
+				<span>
+					{% for items in section4.organizer.item %}
+					<a href="{{ items.url }}" target="_blank" rel="noopener noreferrer" style="color: inherit;">{{ items.name }}</a><br>{% endfor %}</span>
+				<br><br><b>{{ section4.committee.title }}</b><br>
+				<span>
+					{% for items in section4.committee.item1 %}{{ items.name }}<br>{% endfor %}</span>
+			</span>
+			<div class="section section-4">
+				<h1 class="title smaller"><span class="plus-sign">Women+ </span><br>Data Science</h1>
+				{% for items in section4.partnerImage %}
+				<img src="{{ items.image }}" class="icon" alt="{{ items.name }}">
+				{% endfor %}
+			</div>
+		</div>
+		<link rel="stylesheet" href="{{ "/assets/js/script.js" | relative_url }}" />
+		{% include tracking-footer.html %}
+	</body>
+
+</html>
