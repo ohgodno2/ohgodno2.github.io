@@ -323,3 +323,21 @@ nav ul li a.is-active {
 .description:last-child {
   color: #888;
 }
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 .5rem;
+    position: relative;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 .5rem;
+    position: relative;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
