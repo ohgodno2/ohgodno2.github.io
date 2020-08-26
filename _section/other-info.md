@@ -7,7 +7,7 @@ weight: 4
 
 ## Getting Here
 ### Travel to MSU Union (directions)
-
+<iframe title="MSU Union" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.5608227646585!2d-84.48503874885711!3d42.73418541928247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822e9d46f1fc597%3A0xa50cc53576c6bdac!2sMSU%20Union!5e0!3m2!1sen!2sus!4v1580839004297!5m2!1sen!2sus" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen=""></iframe>
 ### Note on UM shuttle
 
 ### Housing
