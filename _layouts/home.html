@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign section2 = site.data.home.section2 %}
+{% assign section3 = site.data.home.section3 %}
+<div class="section-parent">
+	<div class="section section-2"><span class="subtitle">{{ section2.title }}</span>
+		<div class="schedule">
+			{% for item in section2.details %}
+			<div class="row">
+				<span class="time">{{ item.time }}</span><span class="event">{{ item.event }} {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="registration">{% endif %} {% if item.aname %} {{ item.aname }} {% endif %}</a>{% if item.aposition %}{{ item.aposition }}{% endif %} </span>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="section section-3"><span class="subtitle">{{ section3.title }}</span>
+		<div class="call">
+			{{ section3.content }}
+			<p>
+				<b>{{ section3.point1_title }}<a target="_blank" rel="noopener noreferrer" href="{{ section3.point1_title }}">{{ section3.point1_content }}</a></b>
+				<br><b>{{ section3.point2_title }}</b> {{ section3.point2_content }}<br>
+				<b>{{ section3.point3_title }}</b> {{ section3.point3_content }}<br>
+				<b><a target="_blank" rel="noopener noreferrer" href="{{ section3.point4_url }}">{{ section3.point4_content }}</a></b>
+			</p>
+			<p><b>{{ section3.point5_title }}</b> {{ section3.point5_content }}<a target="_blank" rel="noopener noreferrer" href="mailto:{{ section3.point5_email }}">{{ section3.point5_email }}</a></p>
+		</div>
+	</div>
+</div>

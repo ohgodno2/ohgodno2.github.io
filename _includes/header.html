@@ -21,4 +21,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto Condensed:400,700" rel="stylesheet" property="stylesheet" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black&amp;display=swap" rel="stylesheet">
 	{% include tracking-header.html %}
+	<title>{% if page.title %}{{ page.title }} - {{ site.title}}{% else %}{{ site.title }}{% endif %}</title>
+    {% seo title=false %}
 </head>

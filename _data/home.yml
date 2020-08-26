@@ -1,9 +1,10 @@
 # leave the value empty to diable it
+
 header:
   announcement: "Due to the COVID-19 epidemic, this event will be rescheduled to September, 2020.&nbsp; More information coming soon."
   logo: "/images/msu-helmet-green.png"
   smalllogo: "/images/um.png"
-  title: "Women+</span><br>Data Science"
+  title: "<span class='plus-sign'>Women+</span><br>Data Science"
 
 # info
 section1:
@@ -14,8 +15,6 @@ section1:
   description2: "Transportation provided from Ann Arbor to East Lansing"
   event_title: "EVENT REGISTRATION"
   event_url: "https://docs.google.com/forms/d/e/1FAIpQLSfwwdGOItncuSTJqOVBnnlvF6FgyR4Lhiyc4A6HTRorYMnPUg/viewform"
-
-# menu
 
 # Schedule
 section2:
@@ -60,19 +59,23 @@ section3:
       <li>Ethics, fairness, and societal impact</li>
       <li>Emerging research areas</li>
     </ul>
-
-point1_title: "Submission Guidelines"
-point1_url: "https://women-plus-datascience.github.io/poster-talk-guidelines"
-point1_url_text: "Click Here"
-point2_title: "Submission Deadline:"
-point3_title: ""
-point4_title: ""
-point1_title:
+  point1_title: "Submission Guidelines: "
+  point1_url: "https://women-plus-datascience.github.io/poster-talk-guidelines"
+  point1_content: "Click Here"
+  point2_title: "Submission Deadline:"
+  point2_content: "Feb 29, 2020"
+  point3_title: "Notification:"
+  point3_content: "March 15, 2020"
+  point4_url: "https://docs.google.com/forms/d/e/1FAIpQLSfwwdGOItncuSTJqOVBnnlvF6FgyR4Lhiyc4A6HTRorYMnPUg/viewform"
+  point4_content: "Register Here"
+  point5_title: "Questions?"
+  point5_content: "Email us: "
+  point5_email: "women.plus.datascience@gmail.com"
 
 section4:
- organizer:
-  title: "Organizers"
-  item:
+  organizer:
+    title: "Organizers"
+  organizeritem:
     - name: "R-Ladies East Lansing ,"
       url: "https://rladies-eastlansing.github.io/"
     - name: "Michigan Institute for Data Science"
@@ -81,9 +84,9 @@ section4:
       url: "#"
   committee:
     title: "Program Committee"
-    item1:
-      - name: "Liz Munch (MSU), Parisa Kordjamshidi (MSU), Dola Pathak (MSU)"
-      - name: "Marcy Harris (UM), Margaret Hedstrom (UM)."
+  committeeitem:
+    - name: "Liz Munch (MSU), Parisa Kordjamshidi (MSU), Dola Pathak (MSU)"
+    - name: "Marcy Harris (UM), Margaret Hedstrom (UM)."
   partnerImage:
     - name: "RLEL"
       image: "/images/rlel-sq-bord.png"
